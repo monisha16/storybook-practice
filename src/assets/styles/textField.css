@@ -1,0 +1,23 @@
+@import './practiceBase.css';
+
+.basic-input{
+    font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    display: flex;
+    line-height: 1;
+    align-items: center;
+    color: #323130;
+}
+.input-field{
+    height: 1.5rem;
+    border: 2px solid var(--baseColor);
+    border-radius: 3em;
+    margin-left: .5rem;
+    padding: 0em 1.1em;
+}
+
+.input-field:disabled{
+    cursor: not-allowed;
+    background: var(--disabled);
+    color: var(--baseColorDark);
+}

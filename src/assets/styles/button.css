@@ -1,0 +1,74 @@
+@import './practiceBase.css';
+.storybook-button {
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  border: 0;
+  border-radius: 3em;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+}
+.storybook-button:disabled{
+  cursor: not-allowed;
+  pointer-events: all;
+  box-shadow: none;
+}
+
+.storybook-button--primary {
+  color: white;
+  background: var(--baseColor);
+}
+.storybook-button--primary:disabled {
+    background: #E1DFDD;
+    border-color: #E1DFDD;
+    color: #323130;
+    box-shadow: none;
+}
+.storybook-button--secondary {
+  border: 2px solid var(--baseColor);
+  background: #FFF;
+  color: var(--baseColor);
+  padding: .687em 1.1em;
+}
+.storybook-button--secondary:disabled{
+  border: 2px solid #A19F9D;
+  color: #A19F9D;
+  box-shadow: none;
+}
+.storybook-button--small {
+  font-size: 12px;
+  padding: 10px 16px;
+}
+.storybook-button--medium {
+  font-size: 14px;
+  padding: 11px 20px;
+}
+.storybook-button--large {
+  font-size: 16px;
+  padding: 12px 24px;
+}
+
+.link-button{
+    display: flex;
+    font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    align-items: center;
+}
+.text{
+    color:var(--baseColor);
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+}
+
+.text:hover{
+    color:var(--baseColorDark);
+    cursor: pointer;
+}
+.text:disabled{
+  color:#8A8886;
+  cursor: not-allowed;
+  pointer-events: all;
+  box-shadow: none;
+}
+       

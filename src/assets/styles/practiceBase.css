@@ -1,0 +1,17 @@
+/* @import './global.scss'; */
+:root {
+    --baseColor:#E93553;
+    --baseColorDark: #982235;
+    --baseColorBorder:#ED5770;
+    --datepickerFade: #E9355333;
+    --toggleDisabled:  #E9355380;
+    --disabled: #FFF2F5;
+/* 
+    --cancel: url('../icons-discover/cancel.svg');
+    --cancel-filled: url('../icons-discover/cancel-filled.svg');
+    --hide: url('../icons-discover/hide.svg');
+    --upload: url('../icons-discover/upload.svg');
+    --view: url('../icons-discover/view.svg');
+    --check-filled-disabled: url('../icons-discover/check-filled-disabled.svg');
+    --contact-admin: url('../icons-discover/admin-forgot-password.svg'); */
+}
